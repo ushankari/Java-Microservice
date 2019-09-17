@@ -88,10 +88,10 @@
             <goals>
                 <goal>repackage</goal>
             </goals>
-            <configuration>
+          <!--   <configuration>
                 <mainClass>com.stackify.Application</mainClass>
                 <outputDirectory>${project.basedir}/docker</outputDirectory>
-            </configuration>
+            </configuration> -->
         </execution>
     </executions>
 </plugin>
